@@ -1,0 +1,129 @@
+ul{
+    list-style: none;
+}
+.next-top-option{
+    display: flex;
+    flex-direction: column;
+    height: 1.5cm;
+    margin:4px;
+    border-style: double;
+    border-width: 5px;
+    border-color: grey;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+.cake>img
+{
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 300px;
+}
+.cake
+{
+    background-color:whitesmoke;
+    border-style: double;
+    border-color: chartreuse;
+    border-width: thick;
+    overflow: auto;
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+}
+.pizza>img
+{
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 300px;
+}
+.pizza
+{
+    background-color:whitesmoke;
+    border-width: thick;
+    border-style: double;
+    border-color: red;
+    overflow: auto;
+    padding: 5px;
+    margin: 20px;
+}
+#aboutlist
+{
+    border-style: solid;
+    border-color: rgb(139, 132, 132);
+    line-height: 1cm;
+    margin: 0.5cm;
+    font-weight: bolder;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+}
+#aboutpic
+{
+    display: flex;
+    justify-content: center;
+    background-image: url(beach.jpg);
+    
+}
+#aboutmemberpic>img
+{
+   border-radius: 50px;
+   opacity: 0.8;
+}
+#aboutbody
+{   
+    background-color: rgb(241, 206, 153);
+    text-align: center;
+}
+#contact-icons a{
+    display: inline-block;
+    padding-right: 0.5cm;
+    padding-left: 0.5cm;
+}
+#contact-contact
+{   
+    padding: 2px;
+    margin-top: 8px;
+    background-color: #ff9933
+
+}
+#contact-res
+{
+    padding: 3px;
+    margin-top: 5px;
+}
+#contact-platform
+{
+    background-color: rgb(9, 150, 9);
+    line-height: 2cm;
+}
+#contact-gifs
+{
+    border-style: double;
+    border-width: thick;
+    border-color: brown;
+    padding:50px;
+    overflow: auto;
+}
+#teacakenote
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.submit-button:hover{
+    background-color: lightseagreen;
+}
+.account>fieldset{
+    text-align: center;
+}
+
+
+
+
