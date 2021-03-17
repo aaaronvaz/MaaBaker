@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet"/>
+    <link href="css/home_head&foot.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="heading">
+        <div class="logo">
+            <img src="images/welcome_logo.PNG"/>
+        </div>
+    </div>
+<div class="next-top-option">
+    <a href="home.html">Back to Home</a>
+</div>
+<div class="account">
+    <fieldset>
+        <legend>SIGN IN</legend>
+        <form>
+        <img src="images/logo.PNG"/>
+        <p>EMAIL<br/>
+        <input type="email" name="email" required="required"/>
+        </p>
+        <p>PASSWORD<br/>
+        <input type="password" id="password-signin" value="" name="password" required="required"/>
+        </p>
+        <div class="class">
+            <span id="password-message" style="color: crimson; font-weight: bold;"></span>
+        </div>
+        <div class="class" style="color: black; margin-bottom: 8px;">
+            <input type="checkbox" onclick="show_signin_p()"/>Show Password
+        </div>
+        <input type="submit" class="submit-button" name="submit" value="SIGN IN" onclick="return validate_signin()"/>
+        <br/>
+        <br/><hr/>
+        <form>
+        <a href="createaccount.html">
+        <button type="button" class="submit-button">Create New Account</button>
+        </a>
+        <br/>
+        </fieldset>
+</div>
+<script src="js/account-settings.js"></script>
+</body>
+</html>
+
+

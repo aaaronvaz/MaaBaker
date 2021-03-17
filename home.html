@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maa Baker</title>
+    <link href="css/home_head&foot.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <a href="home.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="cakes.html">Cakes</a>
+        <a href="pizza.html">Pizza's</a>
+        <a href="teacakes.html">Tea Cakes</a>
+        <a href="contact.html">Contact Us</a>
+        <div class="dropdown">
+            <button class="drop-button">MORE..</button>
+            <div id="drop-content">
+                <a href="signin.html">Sign&nbsp;In</a>
+                <a href="myaccount.html">My&nbsp;Account</a>
+                <a href="myorder.html">My&nbsp;Order</a>
+            </div>
+        </div>
+        <div id="search">
+            <input type="search" value="" id="search-input">
+            <input type="submit" value="Search" id="search-button">
+        </div>
+    </header>
+    <div class="heading">
+        <div class="logo">
+            <img src="images/welcome_logo.PNG" id="main-logo"/>
+        </div>
+    </div>
+    <div class="showcase">
+        <img src="images/cakes/fruitcake.jpg"  alt="Fruit Cake" title="Fruit Cake" />
+        <img src="images/tcake/marblecupcakes.jpg"  alt="Marble Cake" title="Marble Cake" />
+        <img src="images/pizza/chickencocktail.jpg"  alt="Chicken Pizza" title="Chicken Pizza" />
+    </div>
+        <div class="notice">
+            <div class="notice_head">
+                <p>keep yourself updated</p> 
+            </div>
+            <div class="notice_iframe">
+                <iframe src="guide.html" height=350 width=400 >
+                </iframe>
+                <iframe width="520" height="350" src="https://www.youtube.com/embed/6-aw0J-X5qU" frameborder="0">
+                </iframe>
+                <iframe src="notice.html" height=350 width=400 >
+                </iframe>
+            </div>
+        </div>
+        <div class="sites">
+            <center>
+                <h2><i>Incase you did not get, what you were here for...</i></h2>
+                <a href="https://www.monginis.net/" target="_blank">
+                    <h3>Monginis</h3>
+                </a>
+                <a href="https://pastrypalacegoa.com/" target="_blank">
+                    <h3>Pastry Palace</h3>
+                </a>
+                <a href="http://gg.gg/othersites" target="_blank">
+                    <h3>Other Sites</h3>
+                </a>
+            </center>
+        </div>
+        <div class="form">
+            <center>
+                <h2><i><u>Feedback</u></i></h2>
+                <form action="home_formjsp.jsp" method="get">
+                    <textarea cols="50" rows="7" name="feedback_content">Your comments..</textarea>
+                    <br />
+                    <p>Email<br/>
+                        <input type="email" name="feedback_email" value="">
+                    </p>
+                    <input type="submit" onclick="review_submit()" name="submit" value="SUBMIT"/>
+                </form>
+            </center>
+        </div>
+        <footer>
+        <div id="foot-contact">
+            <h2>Contact Us</h2>
+            <a href="http://www.facebook.com/" target="_blank">
+                <img src="images/contact/icons/fb.jpg"  alt="facebook" title="Facebook"/>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/contact/icons/ig.jpg"  alt="instagram logo" title="Instagram"/>
+            </a>
+            <a href="https://accounts.google.com/" target="_blank">
+                <img src="images/contact/icons/gmail.png"  alt="gmail logo" title="Gmail"/>
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="images/contact/icons/twitter.jpg"  alt="twitter logo" title="Twitter"/>
+            </a>
+            <p>Developer: Aaron Vaz<br/>
+                <a href="mailto:aar023@chowgules.ac.in">Send Email</a>
+            </p>
+            <div id="foot-contact-knowmore">
+            <a href="contact.html" target="_blank"><h2>Know More</h2></a>
+            </div>
+        </div>
+        </footer>
+        <script src="js/test.js"></script>
+</body>
+</html>

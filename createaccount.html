@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create Account</title>
+        <link href="css/main.css" type="text/css" rel="stylesheet"/>
+        <link href="css/home_head&foot.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="heading">
+            <div class="logo">
+                <img src="images/welcome_logo.PNG"/>
+            </div>
+        </div>
+        <div class="next-top-option">
+            <a href="home.html">Back to Home</a>
+        </div>
+        <div class="account">
+            <fieldset>
+                <legend>Account Details</legend>
+                <form action="newjsp.jsp" method="get">
+                    <img src="images/logo.PNG"/>
+                    <p>FIRST NAME<br/>
+                        <input type="text" id="fname" name="fname" maxlength="15" required="required"/>
+                    </p>
+                    <p>LAST NAME<br/>
+                        <input type="text" id="lname" name="lname" maxlength="15"/>
+                    </p>
+                    <p>DATE OF BIRTH<br/>
+                        <input type="date" id="dob" name="dob"/>
+                    </p>
+                    <p>EMAIL<br/>
+                        <input type="email" id="email" name="email" required="required"/>
+                    </p>
+                    <p>PASSWORD<br/>
+                        <input type="password" id="password1" name="password1" required="required" value=""/>
+                    </p>
+                    <div class="div">
+                        <span id="password-message" style="color: crimson; font-weight: bold;"></span>
+                    </div>
+                    <p>CONFIRM PASSWORD<br/>
+                        <input type="password" id="password2" name="password2" required="required" value=""/>
+                    </p>
+                    <div class="div">
+                        <span id="password-confirm-message" style="color: crimson; font-weight: bold;"></span>
+                    </div>
+                    <div id="password-visibility" style="color: black; margin-bottom: 12px;">
+                        <input type="checkbox" onclick="showpassword()"/>Show Password
+                    </div>
+                    <button type="submit" class="submit-button" name="Createaccount" id="submit" onclick="return validate()">Create Your Account</button>
+                    <br/>
+                    <br/>
+                    <hr/>
+                    <h2><i>Already have an account?</h2>
+                    <a href="signin.html">
+                        <button type="button" class="submit-button" id="submitbtn" >SIGN IN</button>
+                    </a>
+            </fieldset>
+        </div>
+        <script src="js/account-settings.js" type="text/javascript"></script>
+    </body>
+</html>
+
+
+
